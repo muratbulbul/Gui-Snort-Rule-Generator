@@ -1,3 +1,6 @@
+#This tool is designed to create Snort-based rules from gui and you can implement your rules into snort-based systems.
+#Murat BULBUL
+#Senior Techology Consultant @LabrisNetworks
 import sys
 import os
 from Tkinter import *
