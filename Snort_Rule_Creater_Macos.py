@@ -19,7 +19,7 @@ snort.geometry('1200x650+1+1')
 #800x400 screen size
 
 #Title of tkinter
-snort.title('Labris IDS Easy Rule')
+snort.title('Easy Snort Rule')
 
 # Frames
 frame = Frame(snort,height = 50, width = 100,padx=10,pady=10)
@@ -516,7 +516,7 @@ clearbuttony.grid(row=2,column=4)
 ###Output
 myrule=StringVar()
 myrule=""
-rule=Label(frame4,text='Labris IDS Rule:',fg='black',font=('Verdana', 8, 'bold'),bg='#81DAF5').grid(row=0,column=0,sticky=W)
+rule=Label(frame4,text='Snort Rule:',fg='black',font=('Verdana', 8, 'bold'),bg='#81DAF5').grid(row=0,column=0,sticky=W)
 
 ########################################################################################
 #Menus
